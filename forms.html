@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="result.html" name="myfirst_form" method="">
+      <label>Username: <input type="text" name="usrname" placeholder="name" /></label>
+      <br />
+      <br />
+
+      <label for="surname">Surname: </label>
+
+      <input type="text" name="sur_name" id="surname" placeholder="surname" />
+      <br />
+      <br />
+      <label
+        >Password: <input type="password" name="şifre" id="password" />
+      </label>
+      <br />
+      <br />
+      <div>
+        <label>Gender: </label>
+        <label
+          >Male
+          <input type="radio" name="cinsiyet" id="gender" value="Male" checked
+        /></label>
+        <label
+          >Fmale <input type="radio" name="cinsiyet" id="gender" value="Fmale"
+        /></label>
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="arac-1">Bisiklet</label>
+        <input type="checkbox" name="arac-1" id="arac-1" value="bisiklet" />
+        <label for="arac-2">Araba</label>
+        <input type="checkbox" name="arac-2" id="arac-2" value="Araba" />
+        <label for="arac-3">Tekne</label>
+        <input type="checkbox" name="arac-3" id="arac-3" value="Tekne" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="yas-1">Yaş: </label>
+        <input type="number" name="yas-1" id="yas-1" min="10" max="99" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="phone">Enter a phone number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="123-45-678"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          required
+        /><br /><br />
+        <small>Format: 123-45-678</small>
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="search-1">Search Google: </label>
+        <input type="search" name="search" id="search-1" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="color-1">Select your Color</label>
+        <input type="color" name="color" id="color-1" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="email-1">Email</label>
+        <input type="email" name="date" id="email-1" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="date-1">Birthdate</label>
+        <input type="date" name="date" id="date-1" value="2020-01-01" min="1980-01-02" max="2023-01-02"/>
+      </div>
+
+      <br />
+      <br />
+      <div>
+        <label for="file-1">Select File</label>
+        <input type="file" name="file" id="file-1" />
+      </div>
+      <br />
+      <br />
+      <input type="submit" value="Send Data" />
+    </form>
+  </body>
+</html>
